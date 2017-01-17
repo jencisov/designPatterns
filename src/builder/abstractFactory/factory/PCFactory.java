@@ -1,6 +1,6 @@
 package builder.abstractFactory.factory;
 
-import builder.abstractFactory.Computer;
+import builder.abstractFactory.bean.Computer;
 import builder.abstractFactory.bean.PC;
 import builder.abstractFactory.abstractFactory.ComputerAbstractFactory;
 

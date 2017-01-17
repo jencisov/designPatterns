@@ -14,3 +14,14 @@ public class TestFactory {
     }
 
 }
+
+/**
+ * Beneficios del patrón Factory Method:
+ * <p>
+ * Provee enfoque a codear Interfaces en lugar de implementaciones
+ * <p>
+ * Al ser una Fabrica de Fabricas, se le puede extender facilmente para acomodar
+ * más productos como agregar una sub clase Laptop y una LaptopFactory
+ * <p>
+ * Es robusta y evita la lógica condicional del patron Factory Method
+ */

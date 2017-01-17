@@ -20,3 +20,10 @@ public class TestBuilderPattern {
     }
 
 }
+
+/**
+ * El patrón Builder se usa en:
+ * StringBuilder.append()
+ * StringBuffer.append()
+ * OutputStreamWriter (retorna un Writer)
+ */

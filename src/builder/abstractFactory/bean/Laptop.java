@@ -1,14 +1,14 @@
 package builder.abstractFactory.bean;
 
 /**
- * Created by Kuma on 16/01/2017.
+ * Created by Kuma on 17/01/2017.
  */
-public class Server extends Computer {
+public class Laptop extends Computer {
     private String ram;
     private String hdd;
     private String cpu;
 
-    public Server(String ram, String hdd, String cpu) {
+    public Laptop(String ram, String hdd, String cpu) {
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;

@@ -1,7 +1,5 @@
 package builder.abstractFactory.bean;
 
-import builder.abstractFactory.Computer;
-
 /**
  * Created by Kuma on 16/01/2017.
  */
@@ -30,4 +28,5 @@ public class PC extends Computer {
     public String getCPU() {
         return this.cpu;
     }
+
 }

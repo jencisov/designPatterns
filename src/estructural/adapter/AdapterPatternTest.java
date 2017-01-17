@@ -57,3 +57,10 @@ public class AdapterPatternTest {
     }
 
 }
+
+/**
+ * El patrón Adapter se usa en:
+ * Arrays.asList()
+ * InputStreamReader (retorna un Reader)
+ * OutputStreamWriter (retorna un Writer)
+ */
