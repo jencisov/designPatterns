@@ -29,11 +29,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBuilderPattern.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBuilderPattern.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/builder/builder/TestBuilderPattern.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employees.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/builder/prototype/Employees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrototypePatternTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/prototype/PrototypePatternTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -91,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/builder/abstractFactory/Computer.java" />
         <option value="$PROJECT_DIR$/src/builder/builder/Computer.java" />
         <option value="$PROJECT_DIR$/src/builder/builder/TestBuilderPattern.java" />
+        <option value="$PROJECT_DIR$/src/builder/prototype/Employees.java" />
+        <option value="$PROJECT_DIR$/src/builder/prototype/PrototypePatternTest.java" />
       </list>
     </option>
   </component>
@@ -165,20 +195,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="builder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -202,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
+              <option name="myItemId" value="prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,27 +236,7 @@
       <recent name="builder.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBuilderPattern">
-    <configuration default="false" name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="builder.factoryMethod.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="builder.factoryMethod.TestFactory" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="designPatterns" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PrototypePatternTest">
     <configuration default="false" name="ReflectionSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -309,6 +305,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="builder.builder.TestBuilderPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="designPatterns" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrototypePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="builder.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="builder.prototype.PrototypePatternTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -532,19 +548,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestFactory" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReflectionSingletonTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SingletonSerializedTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestAbstractFactoryPattern" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestBuilderPattern" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ReflectionSingletonTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SingletonSerializedTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestAbstractFactoryPattern" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestBuilderPattern" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PrototypePatternTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestBuilderPattern" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestAbstractFactoryPattern" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SingletonSerializedTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReflectionSingletonTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestFactory" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PrototypePatternTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestBuilderPattern" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestAbstractFactoryPattern" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SingletonSerializedTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReflectionSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -841,6 +857,30 @@
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/prototype/PrototypePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/prototype/Employees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
