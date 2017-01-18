@@ -8,6 +8,14 @@ import java.sql.Connection;
 
 /**
  * Created by Kuma on 17/01/2017.
+ * <p>
+ * Suponiendo que nuestra aplicación tiene varias Interfaces para usar MySql/Oracle y generar
+ * diferentes tipos de reportes, tendremos diferentes Interfaces para trabajar con diferentes
+ * tipos de Bases de Datos.
+ * Cuando la complejidad crece, la aplicación cliente encontrará esto complicado de manejar.
+ * <p>
+ * Entonces podemos aplicar Facade como Interface envoltura encima de las Interfaces existentes
+ * para ayudar a la aplicación Cliente
  */
 public class FacadePatternTest {
 
@@ -36,16 +44,16 @@ public class FacadePatternTest {
 
 /**
  * PUNTOS IMPORTANTES:
- *
+ * <p>
  * Es más como un Helper para aplicaciones Cliente, no esconde
  * las Interfaces del subsistema. Usarlo o no es dependiente del código Cliente.
- *
+ * <p>
  * Puede ser aplicado en cualquier momento del desarrollo. Usualmente cuando
  * la cantidad de Interfaces crece y el sistema se hace complejo.
- *
+ * <p>
  * Los Subsistemas no deben notar la existencia de Facade ni debe haber referencias.
- *
+ * <p>
  * El propósito es proporcionar una Interface en lugar de multiples.
- *
+ * <p>
  * Se puede usar el patrón Factory Method con Facade para proveer mejor Interface.
  */
