@@ -1,4 +1,6 @@
-package builder.singleton.serialization;
+package builder.singleton;
+
+import builder.singleton.instantiation.SerializedSingleton;
 
 import java.io.*;
 

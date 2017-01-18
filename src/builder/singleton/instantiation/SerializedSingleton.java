@@ -1,4 +1,4 @@
-package builder.singleton.serialization;
+package builder.singleton.instantiation;
 
 import java.io.Serializable;
 

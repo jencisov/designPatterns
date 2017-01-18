@@ -25,3 +25,9 @@ public class PrototypePatternTest {
     }
 
 }
+
+/**
+ * Si la clonación del objeto no se diera, cada vez que se necesita hacer
+ * una llamada a la BD para traer la lista de empleados, consumiría tiempo
+ * y recursos
+ */

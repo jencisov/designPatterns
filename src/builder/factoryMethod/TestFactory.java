@@ -20,8 +20,9 @@ public class TestFactory {
  * <p>
  * Provee enfoque a codear Interfaces en lugar de implementaciones
  * <p>
- * Al ser una Fabrica de Fabricas, se le puede extender facilmente para acomodar
- * más productos como agregar una sub clase Laptop y una LaptopFactory
+ * Quita la instanciación de la implementación de clases del código Cliente
+ * haciéndo que sea más robusto, menos acoplado y fácil de extender
  * <p>
- * Es robusta y evita la lógica condicional del patron Factory Method
+ * Provee de abstracción entre la implementación y las clases cliente a través
+ * de la herencia
  */

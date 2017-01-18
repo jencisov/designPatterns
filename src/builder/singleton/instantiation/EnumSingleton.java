@@ -1,4 +1,4 @@
-package builder.singleton.reflection;
+package builder.singleton.instantiation;
 
 /**
  * Created by Kuma on 16/01/2017.

@@ -15,7 +15,7 @@ public class BillPughSingleton {
     }
 
     /**
-     * Nótese la clase PRIVATE INNER STATIC que contiene la instancia de la clase Singleton.
+     * La clase PRIVATE INNER STATIC que contiene la instancia de la clase Singleton.
      * Cuando la clase Singleton es cargada, SingletonHelper no es cargada en la memoria
      * y solo cuando alguien llama al método getInstance esta clase se carga y se crea la
      * instancia de la clase Singleton

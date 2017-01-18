@@ -1,4 +1,4 @@
-package builder.singleton.reflection;
+package builder.singleton;
 
 import builder.singleton.instantiation.EagerInitializedSingleton;
 
